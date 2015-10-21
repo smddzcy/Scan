@@ -6,7 +6,7 @@
  * @description Multi-threaded web directory scanner.
  * @author Samed Düzçay <samedduzcay@gmail.com>
  * Uses bruteforce method for creating possible paths.
- * @license GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007. Look at the LICENSE file for further information.
+ * @license GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007. Look at LICENSE file for further information.
  * @version 1.0
  *
  */
@@ -155,7 +155,7 @@ class Scan
             for ($i = 0; $i < count($threadPool); $i++) {
                 $threadPool[$i]->join();
                 if ($threadPool[$i]->result >= 100 && $threadPool[$i]->result < 400)
-                    echo $threadPool[$i]->getFullURL() . " Found. - Response Code: " . $threadPool[$i]->result . PHP_EOL;
+                    echo $threadPool[$i]->getFullURL() . " Found - Response Code: " . $threadPool[$i]->result . PHP_EOL;
             }
 
         }

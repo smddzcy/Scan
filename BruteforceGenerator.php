@@ -5,7 +5,7 @@
  *
  * @description A memory efficient data generator for bruteforcing.
  * @author Samed Düzçay <samedduzcay@gmail.com>
- * @license GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007. Look at the LICENSE file for further information.
+ * @license GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007. Look at LICENSE file for further information.
  * @version 1.0
  *
  */
