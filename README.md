@@ -3,7 +3,7 @@ Multi-threaded web directory scanner. Uses a memory efficient brute-force method
 
 ## Usage
 ```
-$scan = new Scan('SUPER-SECRET-SITE-WITH-UNKNOWN-FILES', 1, 3);
+$scan = new Scan('SUPER-SECRET-SITE-WITH-UNKNOWN-FILES', 1, 3); // 1 = Min. path length ~ 3 = Max. path length
 $scan->setSpecialPaths(array(
     "funny-cats.gif","naked-photo.jpg"
 ));
