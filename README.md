@@ -1,9 +1,8 @@
 # Scan
-Multi-threaded web directory scanner. Uses a memory efficient brute-force method for generating paths.
+Multi-threaded web directory scanner.
 
 ## Usage
 ```
-// First of all include the main class.
 require_once("./Scan.php");
 
 // It mainly generates paths by brute-forcing.
